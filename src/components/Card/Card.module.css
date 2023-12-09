@@ -1,0 +1,185 @@
+/* .main{
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid rgb(210, 210, 210);
+   
+    width: 24%;
+    overflow: hidden;
+    height: 18%;
+    position:absolute;
+    border-radius:12px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   
+}
+.top{
+    
+    height: 24% ;
+    position:relative;
+    margin-top:5px;
+    width:100%;
+
+}
+.top img {
+        vertical-align: middle;   
+        position: absolute;
+        right: 2%;
+        top: 7%;
+        width: 8%;
+        height: 90%;
+        border-radius: 50%;
+}
+.top div{
+    position: absolute;
+    width: 2%;
+    height: 25%;
+    background-color: green;
+    border-radius: 50%;
+    right: 2%;
+    bottom: 1%;
+    border: 2px solid white
+}
+.top > h3{
+    color: #a3a2a2;
+    position: absolute;
+    top: -49%;
+    left: 5%;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: rgb(84, 83, 83);
+}
+.lower{
+    position:relative;
+  
+    width: 100%;
+    height: 26%;
+    top: 27%;
+}
+.second{
+    border: 1px solid whitesmoke;
+    width: 43%;
+    height: 80%;
+    position: absolute;
+    left: 14%;
+    top: 7%;
+    border-radius:7px;
+}
+.second > h4{
+    position:absolute;
+    color: #a3a2a2;
+    top: -74%;
+    left: 17%;
+}
+.second div {
+    width: 8%;
+    height: 50%;
+    background-color: #a3a2a2;
+    border-radius: 50%;
+    position: absolute;
+    top: 27%;
+    left: 6%;
+}
+.first{
+    border: 1px solid whitesmoke;
+    width: 8%;
+    height: 80%;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    border-radius:7px;
+}
+
+
+ */
+
+
+
+.avatar {
+    height: 30px; /* Set the height of the avatar */
+    width: 30px; /* Set the width of the avatar */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-left: auto; /* Aligns the avatar to the right */
+    border: 2px solid whitesmoke; /* Optional: Adds a white border around the avatar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  max-width: 320px; /* You can set the width as needed */
+  font-family: "Arial", sans-serif;
+  max-height: 350px;
+  border: 1px solid whitesmoke;
+}
+
+.nafl{
+  border: 1px solid whitesmoke;
+  /* height: 10px; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.headerText {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #a3a2a2;
+}
+
+.statusBubble {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+.content {
+  text-align: left;
+}
+
+
+.title {
+  font-size: 16px;
+  color:  #a3a2a2;
+  margin-bottom: 8px;
+  color: rgb(62, 62, 62);
+}
+
+.featureRequestButton {
+  position: absolute;
+  left:13%;
+  border: 1px solid whitesmoke;
+  top: -11%;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color:  #a3a2a2;
+  border-radius: 6%;
+}
+.dot{
+  background-color:  #a3a2a2;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: 14.5%;
+  top: 49%;
+
+}
+.inside{
+  display: flex;
+  position:relative;
+}
+/* Adjust the styles as needed to match the uploaded design */
